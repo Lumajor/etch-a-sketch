@@ -1,0 +1,35 @@
+div.control-panel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: auto;
+    width: 175px;
+    height: 625px;
+    padding-left: 25px;
+}
+
+div.grid-container {
+    display: grid;
+    grid-gap: 1px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 625px;
+    height: 625px;
+}
+
+div.grid-element {
+    max-width: 100%;
+    height: auto;
+    border: solid 1px;
+}
+
+.grid-element.active {
+    background-color: black;
+}
+
+.grid-element.reset {
+    background-color: white;
+}
+
